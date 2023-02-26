@@ -1,6 +1,5 @@
 package org.example.pkg1
 
-class File {
+class User{
 
-    fun abc(){}
 }
