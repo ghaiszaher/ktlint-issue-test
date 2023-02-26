@@ -9,6 +9,7 @@ jobs:
   ktlint:
     name: Check Code Style
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
       - uses: actions/checkout@v3
       - uses: ScaCap/action-ktlint@master
